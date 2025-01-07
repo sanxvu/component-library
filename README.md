@@ -15,3 +15,8 @@ This is a component library which contains badges, banners, cards, and testimoni
 - **HTML** - For structuring the content within React components (via JSX).
 - **CSS** - For styling components.
 - **Font Awesome** - For icons in the app.
+
+
+![image](https://github.com/user-attachments/assets/dfbbbf81-7cfc-4646-967f-1cf33257547a)
+![image](https://github.com/user-attachments/assets/7708ed32-d64e-41aa-b44d-74084118bc8e)
+![image](https://github.com/user-attachments/assets/71f6ce40-d01a-4aea-843b-fb4f338fca61)
