@@ -1,0 +1,245 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+}
+
+* {
+  box-sizing: border-box;
+  background-color: white;
+}
+
+.badge-section {
+  display: flex;
+  flex-direction: row;
+  padding: 10px;
+  gap: 10px;
+}
+
+.badge-square {
+  width: auto;
+  height: auto;
+  padding: 2px 12px 2px 12px;
+  border-radius: 4px;
+  display: flex;
+  justify-content: center;
+}
+
+.badge-pill {
+  width: auto;
+  height: auto;
+  padding: 2px 12px 2px 12px;
+  border-radius: 15px;
+  display: flex;
+  justify-content: center;
+}
+
+.banner-section {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  gap: 10px;
+}
+
+.banner {
+  width: 900px;
+  height: auto;
+  padding: 20px 20px 20px 20px;
+}
+
+.banner-icon {
+  width: 20px;
+  height: 20px;
+  background: transparent;
+  position: absolute;
+}
+
+.banner-title {
+  font-weight: bold;
+  background-color: transparent;
+  margin: 0;
+  margin-left: 30px;
+}
+
+.banner-text {
+  background-color: transparent;
+  margin: 0;
+  margin-top: 20px;
+}
+
+.card-section {
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+  margin-top: 30px;
+}
+
+.card {
+  background-color: #F9FAFB;
+  width: 350px;
+  height: 200px;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  border-radius: 10px;
+}
+
+.card-icon {
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: -50px;
+  border-radius: 10px;
+  background-color: #3F75FE;
+  box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+.card-icon svg {
+  background: transparent;
+  color: white;
+}
+
+.card-info {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  background-color: transparent;
+}
+
+.card-title {
+  font-weight: bold;
+  background-color: transparent;
+  margin: 0;
+  margin-top: 25px;
+  font-size: 25px;
+  font-weight: 500;
+}
+
+.card-text {
+  background-color: transparent;
+  margin: 0;
+  margin-top: 20px;
+  font-size: 18px;
+}
+
+.card:hover {
+  box-shadow: 0px 4px 25px rgba(0, 0, 0, 0.1);
+}
+
+.testimonial-section {
+  display: flex;
+  flex-direction: column;
+  margin-top: 50px;
+  gap: 50px;
+}
+
+.testimonial-with-image {
+  height: 400px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  background-color: #2545B8;
+}
+
+.testimonial-with-image>img {
+  width: 350px;
+  height: 450px;
+  object-fit: cover;
+  border-radius: 10px;
+  margin-left: 50px;
+}
+
+.quote-icon {
+  width: 50px;
+  height: 50px;
+  color: #FFFFFF40;
+  opacity: 50%;
+  background-color: transparent;
+}
+
+.testimonial-with-image-info {
+  display: flex;
+  flex-direction: column;
+  background-color: transparent;
+  padding: 40px;
+}
+
+.testimonial-with-image-info>h1 {
+  background-color: transparent;
+  color: white;
+  font-weight: 500;
+}
+
+.testimonial-with-image-info>p {
+  background-color: transparent;
+  color: white;
+  margin-bottom: 0px;
+  font-weight: bold;
+}
+
+.testimonial-with-image-info>span {
+  background-color: transparent;
+  color: white;
+  margin-bottom: 0px;
+}
+
+.testimonial-no-image {
+  position: relative;
+  height: 400px;
+  background-color: #F9FAFB;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.testimonial-no-image-info {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: transparent;
+  color: #111827;
+  padding: 300px;
+  text-align: center;
+  z-index: 1;
+}
+
+.testimonial-no-image-info>h1 {
+  background-color: transparent;
+  color: #111827;
+  font-weight: 500;
+}
+
+.testimonial-no-image-info>span {
+  background-color: transparent;
+  color: #111827;
+  margin-bottom: 0px;
+}
+
+.testimonial-no-image-info>img {
+  background-color: transparent;
+}
+
+.dot-pattern {
+  position: absolute;
+  background-color: transparent;
+  bottom: 0;
+  left: 0;
+  width: 200px;
+  height: auto;
+  z-index: 0; 
+}
